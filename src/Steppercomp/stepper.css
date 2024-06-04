@@ -1,0 +1,20 @@
+/* Add this CSS to your stylesheet or component styles */
+.step {
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+  
+  .step.active {
+    background-color: #4caf50;
+    color: #fff;
+    /* You can customize the active styles as per your design */
+  }
+  
+  .step:hover {
+    background-color: #e0e0e0;
+    /* You can customize the hover styles as per your design */
+  }
+  

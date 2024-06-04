@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+:root {
+    --primary-color: black;
+    --font-size: 16px;
+
+  }
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main_container{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-color: cornflowerblue;
+}
+/* .form_container{
+    margin: 25px 0;
+    border-radius: 10px;
+    width: 1300px;
+    background-color: white;
+} */
+.logo_profile{
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+}
+.header_company{
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--primary-color);
+    appearance: none;
+    background-color: white;
+    background-clip: padding-box;
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.upload-button{
+    color: var(--primary-color);
+}
+.label{
+    /* color: var(--primary-color); */
+    font-size: var(--font-size);
+}
+.label-bi{
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.header_license{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+/* .header_company:focus-visible{
+    border:1px solid red; 
+    background-color:transparent; 
+    transition:height.5s; 
+    -moz-transition:height 0.5s;
+    -o-transition:height 0.5s; 
+    -webkit-transition:height 0.5s;
+} */
+
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  .blink{
+    animation: blink 1.3s infinite; /* You can adjust the duration and iteration count */
+  }
+
+  .nav-pills .nav-link.active{
+    background-color: white !important;
+    color: blue;
+    border-bottom: 2px solid blue;
+    border-radius: 0 !important;
+  }
+  .nav-pills .nav-link{
+    color: black;
+    padding: 5px 0px;
+  }
